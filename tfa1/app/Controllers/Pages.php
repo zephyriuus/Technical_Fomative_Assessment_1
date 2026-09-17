@@ -5,7 +5,7 @@
             echo "Welcome back!";
         }
         public function about() {
-            echo "This is all about me myself and I";
+            return view('about_view');
         }
     }
 ?>
