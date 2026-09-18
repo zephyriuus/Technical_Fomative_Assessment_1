@@ -19,7 +19,6 @@
             <li>PHP</li>
             <li>CodeIgniter 4</li>
             <li>MVC</li>
-            <li>Composer</li>
         </ul>
     </div>
 </section>
