@@ -6,7 +6,7 @@
     <title><?= esc($title ?? 'Astrelyx') ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bree+Serif&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
@@ -90,20 +90,25 @@
         section {
             flex: 1;
             padding: 45px 0;
+            text-align: center;
         }
 
         h1 {
-            font-size: 34px;
+            font-size: 60px;
             font-weight: 700;
             margin-bottom: 12px;
+            -webkit-text-stroke: 20px #FDF8F2;
+            paint-order: stroke fill;
             color: #75172D;
-            font-family: 'Berkshire Swash';
+            font-family: 'Playfair Display';
         }
 
         h3 {
             font-size: 19px;
             font-weight: 700;
             margin-bottom: 8px;
+            -webkit-text-stroke: 20px #FDF8F2;
+            paint-order: stroke fill;
             color: #75172D;
         }
 
@@ -116,6 +121,7 @@
             display: flex;
             gap: 12px;
             flex-wrap: wrap;
+            justify-content: center;
             margin: 25px 0;
         }
 
@@ -193,8 +199,9 @@
             border: 3px solid #FFB8E3;
             border-radius: 25px;
             overflow: hidden;
-            margin-top: 25px;
+            margin: 25px auto 0;
             padding: 10px;
+            max-width: 900px;
         }
 
         table {
@@ -254,8 +261,9 @@
             border-radius: 25px;
             padding: 30px;
             max-width: 700px;
-            margin-top: 25px;
-            box-shadow: 0 8px 0 #FFB8E3;
+            margin: 25px auto 0;
+            box-shadow: 0 8px 0 #E8FFBE;
+            text-align: left;
         }
 
         .tech-list {
@@ -299,6 +307,14 @@
             th, td {
                 padding: 12px 14px;
                 font-size: 14px;
+            }
+
+            .lead {
+                font-size: 17px;
+                max-width: 55ch;
+                margin-bottom: 25px;
+                color: #75172D;
+                opacity: 0.85;
             }
         }
     </style>
