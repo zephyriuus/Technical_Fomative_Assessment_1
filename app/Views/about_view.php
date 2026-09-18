@@ -13,7 +13,7 @@
         </p>
         <p>
             Customer and User records are currently stored in static PHP arrays
-            as a temporary data source. A real database will replace them later.
+            as a temporary data source.
         </p>
         <ul class="tech-list">
             <li>PHP</li>
